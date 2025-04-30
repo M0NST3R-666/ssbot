@@ -124,8 +124,8 @@ async def process_screenshots(client, callback_query):
 @app.on_message(filters.command("start"))
 async def start(client, message):
     buttons = [
-        [InlineKeyboardButton("📂 Support Channel", url="https://t.me/THEHYBRIDS")],
-        [InlineKeyboardButton("ℹ️ Support Group", url="https://t.me/+SvDPfZF-JhdhN2E9")]
+        [InlineKeyboardButton("📂 Support Channel", url="https://t.me/DUNEBOTS")],
+        [InlineKeyboardButton("ℹ️ Support Group", url="https://t.me/DUNE_BOTS")]
     ]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_text(
