@@ -1,0 +1,8 @@
+pyrofork
+pymupdf
+opencv-python
+tgcrypto
+numpy<2
+pillow
+python-magic
+motor
